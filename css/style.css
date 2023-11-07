@@ -1,0 +1,198 @@
+:root{
+  --blue:#0f2f44;
+  --yellow:#ffc712;
+  --purple:#8484bf;
+
+
+  --ubuntu:     ;
+  --abrilFateFace:         ;
+--opensans:  ;
+
+}
+
+
+
+
+
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+width: 1170px;
+margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+ul{
+  
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: var(--opensans);
+}
+
+
+.alignitem{
+  align-items:center;
+
+}
+
+
+
+
+/* HEADER START */
+.row .welcome{
+  width: 50%;
+}
+
+.row .opening{
+  width: 50%;
+  text-align: center;
+}
+
+header{
+  background-color: var(--blue);
+  color: white;
+  padding: 19px 0;
+
+}
+/* HEADER END */
+
+
+
+/* NAVBAR START */
+
+.logo{
+  width: 30%;
+
+ padding:30px 0;
+}
+
+.menu{
+  width: 70%;
+  text-align: end;
+}
+.menu ul li {
+  
+  display: inline-block;
+}
+
+
+
+nav .menu ul li a{
+  color:black;
+ text-transform: uppercase;
+ padding:40px 20px;
+ display:block;
+ font-size: 16px;
+ transition: 1s;
+ font-weight: 500;
+}
+
+
+
+
+
+
+nav .menu ul li:hover a{
+  color:var(--yellow);
+  background-color: #fff9e6;
+}
+
+.menu ul li span i{
+  width: 40px;
+  height: 40px;
+  border: 1px solid #Ccc;
+  border-radius:50%;
+  text-align: center;
+  display: inline-block;
+  line-height:40px ;
+  
+}
+.alignitem{
+  align-items:center;
+
+}
+/* NAVBAR END */
+
+
+/* BANNER START */
+#banner{
+  background-image: url(../Bizzency.jpg);
+  height: 602px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.written{
+  width: 35%;
+}
+.written h4{
+font-size: 50px;
+font-family: var(--ubuntu);
+color: var(--blue);
+font-weight: 300;
+}
+.written h1{
+  font-family: var(--abrilFateFace);
+  font-weight: 400;
+  font-size: 80px;
+  color: var(--blue);
+  line-height: ;
+}
+
+.written h3{
+  font-family: var(--ubuntu);
+  font-weight: 400;
+  font-size: 32px;
+  color: var(--purple);
+  letter-spacing: 6px;
+ 
+
+}
+.written p{
+  font-family: var(--opensans);
+  font-weight: 400;
+  font-size: 14px;
+  color:#444444 ;
+  line-height: 21px;
+  padding: 15px 0 30px ;
+  color: #6b6f73;
+  
+}
+.written span a{
+  background-color: var(--purple);
+  border-radius: 10px;
+  color: white;
+  padding: 16px 21px;
+  font-size:20px ;
+  font-weight: 500;
+  font-family: var(--ubuntu);
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.written i{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 20px;
+  }
+
+
+/* BANNER  END */
